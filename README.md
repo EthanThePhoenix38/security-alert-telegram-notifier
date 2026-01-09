@@ -36,26 +36,20 @@ This GitHub Action sends notifications to Telegram when security events occur in
 ### Step 2: Get Your Chat ID
 
 **For a personal chat:**
-1. Send any message to your bot
-2. Open this URL in your browser (replace `YOUR_TOKEN` with your bot token):
-   ```
-   https://api.telegram.org/botYOUR_TOKEN/getUpdates
-   ```
-3. Look for `"chat":{"id":123456789}` in the response
-4. **Save this number** as your chat ID
-
+1. Send any message to your bot (the one you created in Step 1)
+2. Search for **@RawDataBot** or **@userinfobot** on Telegram
+3. Send the command `/start` to this bot
+4. 4. **The bot will reply with your Chat ID**
 **For a channel:**
 1. Add your bot as an administrator to your channel
 2. Send a message in the channel
-3. Use the same URL as above to get the chat ID
-4. Channel IDs start with `-100` (e.g., `-1001234567890`)
+3. Add **@RawDataBot** to your channel and it will show the chat ID4
 
 Or simply use your channel username: `@your_channel_name`
 
 ### Step 3: Add Secrets to Your Repository
 
 1. Go to your repository on GitHub
-2. Click on **Settings** → **Secrets and variables** → **Actions**
 3. Click **New repository secret** and add:
    - **Name:** `TELEGRAM_BOT_TOKEN`
    - **Value:** Your bot token from Step 1
