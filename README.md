@@ -238,8 +238,18 @@ jobs:
 
 ## 🤝 Support This Project
 
-If this action helps secure your projects:
+If this action helps secure your projects, support the development:
+
+[![Support via PayPal](https://img.shields.io/badge/PayPal-Support%20Development-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/PhoenixGuardianSales)
+
+💰 **Your support helps fund the server and AI development!**
+
+In exchange, I'll add a link to your GitHub profile in the **Contributors** section.
+
+Or you can:
 - ⭐ **Star this repository**
+- 🔀 **Fork it** to customize for your needs
+- 🐛 **Report issues** to help improve it- ⭐ **Star this repository**
 - 🔀 **Fork it** to customize for your needs
 - 🐛 **Report issues** to help improve it
 
