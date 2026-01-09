@@ -1,0 +1,40 @@
+name: 'Security Alert Telegram Notifier'
+description: 'GitHub Action that monitors security events (Dependabot, CodeQL, etc.) and sends secure notifications to Telegram'
+author: 'EthanThePhoenix38'
+branding:
+  icon: 'shield'
+  color: 'blue'
+
+inputs:
+  telegram-token:
+    description: 'Telegram Bot Token (use secrets!)'
+    required: true
+  telegram-chat-id:
+    description: 'Telegram Chat ID or Channel ID'
+    required: true
+  message:
+    description: 'Custom message to send (supports GitHub context variables)'
+    required: false
+    default: 'Security alert detected in ${{ github.repository }}'
+  disable-notification:
+    description: 'Send notification silently (useful for auto-merge workflows)'
+    required: false
+    default: 'false'
+  parse-mode:
+    description: 'Message format: "Markdown", "MarkdownV2", or "HTML"'
+    required: false
+    default: 'Markdown'
+  disable-web-preview:
+    description: 'Disable web page preview in messages'
+    required: false
+    default: 'true'
+
+outputs:
+  message-id:
+    description: 'ID of the sent Telegram message'
+  success:
+    description: 'Whether the notification was sent successfully'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
