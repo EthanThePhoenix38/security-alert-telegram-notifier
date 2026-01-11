@@ -1,6 +1,6 @@
-name: 'Security Alert Telegram Notifier'
+name: 'Security Notifier for Telegram'
 description: 'GitHub Action that monitors security events (Dependabot, CodeQL, etc.) and sends secure notifications to Telegram'
-author: 'EthanThePhoenix38'
+author: 'PhoenixProject'
 branding:
   icon: 'shield'
   color: 'blue'
