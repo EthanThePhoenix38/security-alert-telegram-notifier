@@ -234,7 +234,7 @@ jobs:
 
 If this action helps secure your projects, support the development:
 
-[![Support via PayPal](https://img.shields.io/badge/PayPal-Support%20Development-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/PhoenixGuardianSales)
+[![Support via PayPal](https://img.shields.io/badge/PayPal-Support%20Development-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/VanessaBernier)
 
 💰 **Your support helps fund the server and AI development!**
 
