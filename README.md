@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="alert.png" alt="Security Notifier Banner" width="600"/>
+</div>
+
 # 🔐 Security Notifier for Telegram
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GitHub release](https://img.shields.io/github/v/release/EthanThePhoenix38/security-alert-telegram-notifier)](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier/releases)
