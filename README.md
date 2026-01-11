@@ -1,5 +1,4 @@
-# 🔐 Security Alert Telegram Notifier
-
+# 🔐 Security Notifier for Telegram
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GitHub release](https://img.shields.io/github/v/release/EthanThePhoenix38/security-alert-telegram-notifier)](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier/releases)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://telegram.org/)
@@ -235,6 +234,8 @@ jobs:
 If this action helps secure your projects, support the development:
 
 [![Support via PayPal](https://img.shields.io/badge/PayPal-Support%20Development-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/VanessaBernier)
+
+[![Support via Patreon](https://img.shields.io/badge/Patreon-Support%20Development-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/EthanThePhoenix)
 
 💰 **Your support helps fund the server and AI development!**
 
