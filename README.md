@@ -13,7 +13,7 @@
 
 GitHub Action that monitors security events (Dependabot alerts, CodeQL, etc.) and sends customizable notifications to Telegram channels
 
-## 📋 Table of Contents
+## Table of Contents
 - [How to Use](#how-to-use)
 - [Step-by-Step Setup](#step-by-step-setup)
 - [Configuration Examples](#configuration-examples)
@@ -21,13 +21,13 @@ GitHub Action that monitors security events (Dependabot alerts, CodeQL, etc.) an
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 This GitHub Action sends notifications to Telegram when security events occur in your repository (Dependabot alerts, CodeQL scans, secret scanning, etc.).
 
 ---
 
-## 📝 Step-by-Step Setup
+## Step-by-Step Setup
 
 ### Step 1: Create a Telegram Bot
 
@@ -81,7 +81,7 @@ jobs:
           telegram-token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram-chat-id: ${{ secrets.TELEGRAM_CHAT_ID }}
           message: |
-            🚨 Security Alert Detected!
+            Security Alert Detected!
             Repository: ${{ github.repository }}
             Event: ${{ github.event.action }}
 ```
@@ -90,7 +90,7 @@ jobs:
 
 ---
 
-## 💡 Configuration Examples
+## Configuration Examples
 
 ### Example 1: Dependabot Alerts Only
 
@@ -110,7 +110,7 @@ jobs:
           telegram-token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram-chat-id: ${{ secrets.TELEGRAM_CHAT_ID }}
           message: |
-            🚨 **Dependabot Alert**
+            **Dependabot Alert**
             Repository: ${{ github.repository }}
             Alert: ${{ github.event.alert.security_advisory.summary }}
             Severity: ${{ github.event.alert.security_vulnerability.severity }}
@@ -142,7 +142,7 @@ jobs:
           telegram-token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram-chat-id: ${{ secrets.TELEGRAM_CHAT_ID }}
           disable-notification: 'true'
-          message: "✅ Auto-merged: ${{ github.event.pull_request.title }}"
+          message: "Auto-merged: ${{ github.event.pull_request.title }}"
 ```
 
 ### Example 3: CodeQL Security Scanning
@@ -153,8 +153,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 0 * * 1'  # Every Monday
-
+    - cron: '0 9,21 * * *'  # Tous les jours à 9h et 21h
 jobs:
   analyze:
     runs-on: ubuntu-latest
