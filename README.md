@@ -176,7 +176,7 @@ jobs:
           telegram-chat-id: ${{ secrets.TELEGRAM_CHAT_ID }}
           parse-mode: 'HTML'
           message: |
-            <b>⚠️ CodeQL Found Issues</b>
+            <b>CodeQL Found Issues</b>
             Repository: ${{ github.repository }}
             Branch: ${{ github.ref }}
 ```
@@ -203,14 +203,14 @@ jobs:
           telegram-token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram-chat-id: ${{ secrets.TELEGRAM_CHAT_ID }}
           message: |
-            🔔 Security Event: ${{ github.event_name }}
+            Security Event: ${{ github.event_name }}
             Repository: ${{ github.repository }}
             Action: ${{ github.event.action }}
 ```
 
 ---
 
-## ⚙️ Available Options
+## Available Options
 
 | Option | Required | Default | Description |
 |--------|----------|---------|-------------|
@@ -223,7 +223,7 @@ jobs:
 
 ---
 
-## 🎯 Tips
+## Tips
 
 - ✅ **Always use GitHub Secrets** for your bot token and chat ID
 - ✅ Use `disable-notification: 'true'` for auto-merge workflows to avoid notification spam
@@ -232,17 +232,17 @@ jobs:
 
 ---
 
-## 🤝 Support This Project
+## Support This Project
 
 If this action helps secure your projects, support the development:
 
-[![Support via PayPal](https://img.shields.io/badge/PayPal-Support%20Development-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/VanessaBernier)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor_on-GitHub-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/EthanThePhoenix38)
+[![Patreon](https://img.shields.io/badge/Support_on-Patreon-F96854?style=for-the-badge&logo=patreon)](https://patreon.com/EthanThePhoenix)
+[![PayPal](https://img.shields.io/badge/Support_via-PayPal-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/paypalme/VanessaBernier)
+[![Ko-fi](https://img.shields.io/badge/Support_on-Ko--fi-F16061?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/EthanThePhoenix)
 
-[![Support via Patreon](https://img.shields.io/badge/Patreon-Support%20Development-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/EthanThePhoenix)
-
-💰 **Your support helps fund the server and AI development!**
-
-In exchange, I'll add a link to your GitHub profile in the **Contributors** section.
+**Your support helps fund the server and AI development!**
+In exchange, I will add a link to your GitHub profile in the Contributors section.
 
 Or you can:
 - ⭐ **Star this repository**
@@ -250,6 +250,10 @@ Or you can:
 - 🐛 **Report issues** to help improve it- ⭐ **Star this repository**
 - 🔀 **Fork it** to customize for your needs
 - 🐛 **Report issues** to help improve it
+
+## Professional Page
+[https://thephoenixagency.github.io](https://thephoenixagency.github.io)
+
 
 ---
 
