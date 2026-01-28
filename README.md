@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="alert.png" alt="Security Notifier Banner" width="600"/>
+  <img src="alert.png" alt="Security Notifier Banner" height = "600" width="1024"/>
 </div>
 
 # 🔐 Security Notifier for Telegram
