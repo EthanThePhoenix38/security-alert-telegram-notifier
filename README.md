@@ -3,14 +3,14 @@
 </div>
 
 # 🔐 Security Notifier for Telegram
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&l.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Security%20Alert%20Telegram%20Notifier-blue?style=for-the-badge&logo=github)](https://github.com/marketplace/actions/security-alert-telegram-notifier)
-[![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&l?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![GitHub release](https://img.shields.io/github/v/release/EthanThePhoenix38/security-alert-telegram-notifier?style=for-the-badge)](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier/releases)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&l?logo=telegram&logoColor=white)](https://telegram.org/)
-[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen?style=for-the-badge&l?logo=dependabot)](https://github.com/dependabot)
-[![CodeQL](https://img.shields.io/badge/CodeQL-enabled-blue?style=for-the-badge&l?logo=github)](https://codeql.github.com/)
-[![Security](https://img.shields.io/badge/Security-hardened-yellow?style=for-the-badge&l?logo=security)](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier/security)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.org/)
+[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen?style=for-the-badge&logo=dependabot)](https://github.com/dependabot)
+[![CodeQL](https://img.shields.io/badge/CodeQL-enabled-blue?style=for-the-badge&logo=github)](https://codeql.github.com/)
+[![Security](https://img.shields.io/badge/Security-hardened-yellow?style=for-the-badge&logo=shield)](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier/security)
 [![RGPD](https://img.shields.io/badge/RGPD-Compliant-blue?style=for-the-badge&logo=gdpr&logoColor=white)](https://github.com/EthanThePhoenix38/dependabot-secure-flow)
   
 GitHub Action that monitors security events (Dependabot alerts, CodeQL, etc.) and sends customizable notifications to Telegram channels
