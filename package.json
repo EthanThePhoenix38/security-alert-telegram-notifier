@@ -1,0 +1,31 @@
+{
+  "name": "security-alert-telegram-notifier",
+  "version": "1.0.0",
+  "description": "GitHub Action that monitors security events and sends secure notifications to Telegram",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist --source-map --license licenses.txt",
+    "format": "prettier --write '**/*.ts'",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "keywords": [
+    "actions",
+    "security",
+    "telegram",
+    "dependabot",
+    "codeql"
+  ],
+  "author": "EthanThePhoenix38",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@vercel/ncc": "^0.38.1",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2"
+  }
+}
