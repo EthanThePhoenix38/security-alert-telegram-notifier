@@ -2,7 +2,6 @@
   <img src="alert.png" alt="Security Notifier Banner" height = "600" width="1024"/>
 </div>
 
-<<<<<<< Updated upstream
 # 🔐 Security Notifier for Telegram
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Security%20Alert%20Telegram%20Notifier-blue?style=for-the-badge&logo=github)](https://github.com/marketplace/actions/security-alert-telegram-notifier)
@@ -14,17 +13,8 @@
 [![Security](https://img.shields.io/badge/Security-hardened-yellow?style=for-the-badge&logo=shield)](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier/security)
 [![RGPD](https://img.shields.io/badge/RGPD-Compliant-blue?style=for-the-badge&logo=gdpr&logoColor=white)](https://github.com/EthanThePhoenix38/dependabot-secure-flow)
   
-=======
-# Security Notifier for Telegram
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GitHub release](https://img.shields.io/github/v/release/EthanThePhoenix38/security-alert-telegram-notifier)](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier/releases)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://telegram.org/)
-[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen?logo=dependabot)](https://github.com/dependabot)
-[![CodeQL](https://img.shields.io/badge/CodeQL-enabled-blue?logo=github)](https://codeql.github.com/)
-[![Security](https://img.shields.io/badge/Security-hardened-yellow?logo=security)](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier/security)
-[![Node.js](https://img.shields.io/badge/Node.js-20-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+---
 
->>>>>>> Stashed changes
 GitHub Action that monitors security events (Dependabot alerts, CodeQL, etc.) and sends customizable notifications to Telegram channels
 
 ## Table of Contents
@@ -246,11 +236,6 @@ jobs:
 
 ---
 
-<<< Updated upstream
-**Your support helps fund the server and AI development!**
-In exchange, I will add a link to your GitHub profile in the Contributors section.
-=======
-
 ## Support This Project
 
 If this action helps secure your projects, support the development:
@@ -259,16 +244,23 @@ If this action helps secure your projects, support the development:
 [![Patreon](https://img.shields.io/badge/Support_on-Patreon-F96854?style=for-the-badge&logo=patreon)](https://patreon.com/EthanThePhoenix)
 [![PayPal](https://img.shields.io/badge/Support_via-PayPal-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/paypalme/VanessaBernier)
 [![Ko-fi](https://img.shields.io/badge/Support_on-Ko--fi-F16061?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/EthanThePhoenix)
+
+
 [![Support via Patreon](https://img.shields.io/badge/Patreon-Support%20Development-f96854?logo=patreon&logoColor=white)](https://www.patreon.com/EthanThePhoenix)
 
 **Your support helps fund the server and AI development!**
+In exchange, I will add a link to your GitHub profile in the Contributors section.
 
-Or you can:
-- Star this repository
-- Fork it to customize for your needs
-- Report issues to help improve it
+You can also :
+- ⭐ **Star this repository**
+- 🔀 **Fork it** to customize for your needs
+- 🐛 **Report issues** to help improve it- ⭐ **Star this repository**
+- 🔀 **Fork it** to customize for your needs
+- 🐛 **Report issues** to help improve it
 
 ---
 
 ## Professional Page
 [https://thephoenixagency.github.io](https://thephoenixagency.github.io)
+
+---
