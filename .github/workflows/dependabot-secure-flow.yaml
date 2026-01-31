@@ -1,3 +1,13 @@
+# ⚠️ DO NOT MODIFY THIS FILE DIRECTLY ⚠️
+# This workflow is a dependency of the Dependabot Secure Flow Action.
+# Upstream Repository: https://github.com/EthanThePhoenix38/dependabot-secure-flow
+# Marketplace Action: https://github.com/marketplace/actions/dependabotsecureflow
+#
+# If you need to make changes, please open an issue in the upstream repository:
+# https://github.com/EthanThePhoenix38/dependabot-secure-flow/issues/new
+#
+# This ensures changes can be propagated automatically to this and other repositories.
+# --------------------------------------------------------------------------------
 name: Dependabot Secure Flow
 
 on:
