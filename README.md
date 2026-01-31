@@ -1,8 +1,7 @@
 <div align="center">
-  <img src="alert.png" alt="Security Notifier Banner" height = "600" width="1024"/>
-</div>
-
-# 🔐 Security Notifier for Telegram
+  <img src="alert.png" alt="Security Notifier Banner"/>
+  <br><br>
+  
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Security%20Alert%20Telegram%20Notifier-blue?style=for-the-badge&logo=github)](https://github.com/marketplace/actions/security-alert-telegram-notifier)
 [![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -12,16 +11,25 @@
 [![CodeQL](https://img.shields.io/badge/CodeQL-enabled-blue?style=for-the-badge&logo=github)](https://codeql.github.com/)
 [![Security](https://img.shields.io/badge/Security-hardened-yellow?style=for-the-badge&logo=shield)](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier/security)
 [![RGPD](https://img.shields.io/badge/RGPD-Compliant-blue?style=for-the-badge&logo=gdpr&logoColor=white)](https://github.com/EthanThePhoenix38/dependabot-secure-flow)
-  
----
 
-GitHub Action that monitors security events (Dependabot alerts, CodeQL, etc.) and sends customizable notifications to Telegram channels
+</div>
+
+# [security-alert-telegram-notifier](https://github.com/EthanThePhoenix38/security-alert-telegram-notifier)
 
 ## Table of Contents
+- [Overview](#overview)
 - [How to Use](#how-to-use)
 - [Step-by-Step Setup](#step-by-step-setup)
 - [Configuration Examples](#configuration-examples)
 - [Available Options](#available-options)
+
+**Version**: 1.0.0
+**Author**: EthanThePhoenix38
+**License**: MIT
+
+## Overview
+
+**Security-alert-telegram-notifier** is an enterprise-grade GitHub Action workflow GitHub Action that monitors security events (Dependabot alerts, CodeQL, etc.) and sends customizable notifications to Telegram channels without human intervention.
 
 ---
 
