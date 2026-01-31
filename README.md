@@ -29,7 +29,7 @@
 
 ## Overview
 
-**Security-alert-telegram-notifier** is an enterprise-grade GitHub Action workflow GitHub Action that monitors security events (Dependabot alerts, CodeQL, etc.) and sends customizable notifications to Telegram channels without human intervention.
+**Security-alert-telegram-notifier** is an enterprise-grade GitHub Action that monitors security events (Dependabot alerts, CodeQL, etc.) and sends customizable notifications to Telegram channels without human intervention.
 
 ---
 
